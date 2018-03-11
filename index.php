@@ -21,16 +21,15 @@ $pesan_datang = $message['text'];
 if($message['type']=='sticker')
 {	
 	$balas = array(
-							'UserID' => $profil->userId,	
-                                                        'replyToken' => $replyToken,							
-							'messages' => array(
-								array(
-										'type' => 'text',									
-										'text' => 'Terima Kasih Stikernya.'										
-									
-									)
-							)
-						);
+	'UserID' => $profil->userId,	
+        'replyToken' => $replyToken,							
+	'messages' => array(
+array(
+	'type' => 'text',									
+	'text' => 'Terima Kasih Stikernya.'										
+	)
+	)
+	);
 						
 }
 else
