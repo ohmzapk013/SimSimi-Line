@@ -6,8 +6,9 @@ Modified by Ilyasa
 */
 require_once('./line_class.php');
 
-$channelAccessToken = 'YOUR-CHANNEL-ACCESS-TOKEN'; //Your Channel Access Token
-$channelSecret = 'YOUR-CHANNEL-SECRET';//Your Channel Secret
+$channelAccessToken = 'WuyPwewrGv5OZmjWIfydJDJDG/JP9AUqVs/gIZSovHkZ5Z+6PJBmDIcdDBYEut8ZhKX1nll/ENXYWXJoHuqyot2/RPpVWLEsWhMkLXMs+AAlt0Npi4mCWfS+a4Wr0Wqa8kKkuUIaRwJZ+79GvR37wQdB04t89/1O/w1cDnyilFU='; //Your Channel Access Token
+$channelSecret = '2eac7280fbe6bd78d099f11325563b8f
+';//Your Channel Secret
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 
